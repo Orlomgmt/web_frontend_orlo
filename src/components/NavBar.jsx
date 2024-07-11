@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5";
 
 const NavBar = () => {
   return (
-    <div className="w-[90%] flex justify-between items-center flex-row mx-auto h-20 backdrop-blur-lg bg-transparent">
+    <div className="w-[90%] flex justify-between items-center flex-row mx-auto h-20">
       <img src={OrloLogo} alt="OrloLogo" />
       <div className=" flex flex-row justify-center items-center gap-16">
         <div className=" flex flex-row justify-center items-center gap-10 text-BlueGray800 font-custom-font">

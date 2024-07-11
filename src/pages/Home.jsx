@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import HowItWorks from "../components/HowItWorks";
 import Testimonials from "../components/Testimonials";
 import BlogSection from "../components/BlogSection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <HowItWorks />
       <Testimonials />
       <BlogSection />
-      {/* <NavBar /> */}
+      <Footer />
     </div>
   );
 };

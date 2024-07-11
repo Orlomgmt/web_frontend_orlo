@@ -15,16 +15,19 @@ module.exports = {
           100: "#f7fafc", /// edited
           200: "#6D7D8B", /// edited gray
           300: "#25313C", /// edited text color gray black
-          400: "#cbd5e0",
-          500: "#a0aec0",
-          600: "#718096",
-          700: "#4a5568",
-          800: "#2d3748",
-          900: "#1a202c",
+          // 400: "#cbd5e0",
+          // 500: "#a0aec0",
+          // 600: "#718096",
+          // 700: "#4a5568",
+          // 800: "#2d3748",
+          // 900: "#1a202c",
         },
       },
       fontFamily: {
         Avenir: ["Avenir", "sans-serif"],
+        AvenirMedium: ["AvenirMedium", "sans-serif"],
+        AvenirLight: ["AvenirLight", "sans-serif"],
+        AvenirBlack: ["AvenirBlack", "sans-serif"],
       },
       backgroundImage: {
         "custom-gradient":

@@ -1,13 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Avenir';
-  src: url('./fonts/Avenir.ttf') format('ttf');
+  src: url('./fonts/AvenirLTStd-Roman.otf');
   font-weight: normal;
   font-style: normal;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: 'AvenirBlack';
+  src: url('./fonts/AvenirLTStd-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLight';
+  src: url('./fonts/AvenirLTStd-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url('./fonts/AvenirLTStd-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @keyframes fadeIn {
   from {

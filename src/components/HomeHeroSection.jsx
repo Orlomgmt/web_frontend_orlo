@@ -76,14 +76,14 @@ const HomeHeroSection = () => {
         <div className="flex flex-row xl:mt-32 relative z-10">
           <div className="w-[561px] flex flex-col gap-3 justify-center items-center ml-32 ">
             <h1
-              className={`text-6xl font-extrabold font-custom-font transition-opacity duration-1000 ${
+              className={`text-6xl font-extrabold font-Avenir transition-opacity duration-1000 ${
                 isFading ? "opacity-80" : "opacity-100"
               }`}
             >
               {SlideData[currentSlideIndex].title}
             </h1>
             <p
-              className={`text-2xl font-custom-font transition-opacity duration-1000 ${
+              className={`text-2xl font-Avenir transition-opacity duration-1000 ${
                 isFading ? "opacity-60" : "opacity-100"
               }`}
             >

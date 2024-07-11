@@ -113,10 +113,10 @@ const BlogSection = () => {
       }}
     >
       <div className=" flex flex-col justify-start items-start w-[90%] mx-auto mt-5 overflow-x-hidden mb-12 ">
-        <h1 className=" font-custom-font font-bold text-black xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl">
+        <h1 className=" font-Avenir font-bold text-black xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl">
           Blog Posts
         </h1>
-        <p className=" font-custom-font xl:text-lg lg:text-base text-base font-normal text-customGray-200 mt-5">
+        <p className=" font-Avenir xl:text-lg lg:text-base text-base font-normal text-customGray-200 mt-5">
           Our latest updates and blogs about managing your team
         </p>
         <div className=" w-full grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-6 gap-y-8 mt-16">
@@ -128,16 +128,16 @@ const BlogSection = () => {
               <img src={item.image} alt={item.author} className="w-full flex" />
 
               <div className=" flex flex-col gap-3 px-5">
-                <h2 className=" font-custom-font text-customGray-300 text-xl font-medium">
+                <h2 className=" font-Avenir text-customGray-300 text-xl font-medium">
                   {item.title}
                 </h2>
-                <p className=" font-custom-font font-normal text-[12px] text-customGray-200">
+                <p className=" font-Avenir font-normal text-[12px] text-customGray-200">
                   {item.content}
                 </p>
               </div>
               <div className=" px-5 gap-4 flex flex-row justify-center items-center mt-6">
                 <img src={item.author.profileImage} alt={profileBlogImage} />
-                <div className=" flex flex-row gap-4 font-custom-font text-[9.4px] font-semibold  text-customGray-200">
+                <div className=" flex flex-row gap-4 font-Avenir text-[9.4px] font-semibold  text-customGray-200">
                   <p>{item.author.name}</p>
                   <p>|</p>
                   <p>{item.date}</p>

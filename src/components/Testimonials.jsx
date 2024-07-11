@@ -35,10 +35,10 @@ const testimonalData = [
 const Testimonials = () => {
   return (
     <div className=" w-[100%] flex flex-col justify-center items-center mx-auto mb-20 ">
-      <h1 className="text-[#000] text-[24px] font-custom-font font-medium leading-[26.2px]">
+      <h1 className="text-[#000] text-[24px] font-Avenir font-medium leading-[26.2px]">
         TESTIMONIALS
       </h1>
-      <h1 className=" text-accent font-medium text-[63px] font-custom-font text-center">
+      <h1 className=" text-accent font-medium text-[63px] font-Avenir text-center">
         {" "}
         What Our Customers Say{" "}
       </h1>
@@ -52,14 +52,14 @@ const Testimonials = () => {
           <div className="flex flex-col justify-center items-center">
             <img src={each.img} alt={each.img} className=" w-[60px] z-10" />
             <div className=" -mt-6 flex text-center flex-col gap-10 py-10 px-7 border z-0 rounded-3xl">
-              <h1 className="w-[375px] text-xl font-custom-font font-normal">
+              <h1 className="w-[375px] text-xl font-Avenir font-normal">
                 {each.review}
               </h1>
               <div className=" flex flex-col gap-2 justify-center items-center">
-                <h1 className="text-2xl font-medium text-accent font-custom-font">
+                <h1 className="text-2xl font-medium text-accent font-Avenir">
                   {each.name}
                 </h1>
-                <p className="text-sm font-normal text-secondary font-custom-font">
+                <p className="text-sm font-normal text-secondary font-Avenir">
                   {each.location}
                 </p>
               </div>

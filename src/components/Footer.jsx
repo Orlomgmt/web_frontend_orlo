@@ -49,9 +49,7 @@ const Footer = () => {
                 <p className=" text-[10px] text-white font-light ml-1 -mb-1 leading-none">
                   GET IT ON
                 </p>
-                <h1 className=" text-lg text-white font-custom-font">
-                  Google Play
-                </h1>
+                <h1 className=" text-lg text-white font-Avenir">Google Play</h1>
               </div>
             </button>
             <button className=" flex flex-row gap-1 px-3 py-2 bg-black rounded-lg justify-center items-center">
@@ -60,84 +58,61 @@ const Footer = () => {
                 <p className=" text-[10px] text-white font-light ml-1 -mb-1 leading-none">
                   Download on the
                 </p>
-                <h1 className=" text-lg text-white font-custom-font">
-                  App Store
-                </h1>
+                <h1 className=" text-lg text-white font-Avenir">App Store</h1>
               </div>
             </button>
           </div>
         </div>
         <div className=" flex flex-row justify-between items-start w-[500px]">
           <div className=" flex flex-col gap-6">
-            <h1 className=" font-custom-font font-bold text-lg text-white  ">
+            <h1 className=" font-Avenir font-bold text-lg text-white  ">
               Pages
             </h1>
             <div className=" flex flex-col gap-4">
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 About Us
               </a>
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 Services
               </a>
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 App
               </a>
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 Blog
               </a>
             </div>
           </div>
           <div className=" flex flex-col gap-6">
-            <h1 className=" font-custom-font font-bold text-lg text-white">
+            <h1 className=" font-Avenir font-bold text-lg text-white">
               Services
             </h1>
             <div className=" flex flex-col gap-4">
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 About Us
               </a>
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 Services
               </a>
-              <a
-                href=""
-                className="font-normal font-custom-font text-sm text-white"
-              >
+              <a href="" className="font-normal font-Avenir text-sm text-white">
                 App
               </a>
             </div>
           </div>
           <div className=" flex flex-col gap-6">
-            <h1 className=" font-custom-font font-bold text-lg text-white">
+            <h1 className=" font-Avenir font-bold text-lg text-white">
               Contact
             </h1>
             <div className=" flex flex-col gap-4">
               <div className=" flex flex-row gap-3">
                 <img src={callIcon} alt="callIcon" className=" w-[20px]" />
-                <p className="font-normal font-custom-font text-sm text-white">
+                <p className="font-normal font-Avenir text-sm text-white">
                   (406) 555-0120
                 </p>
               </div>
               <div className=" flex flex-row gap-3">
                 <img src={mailIcon} alt="callIcon" className=" w-[20px]" />
-                <p className="font-normal font-custom-font text-sm text-white">
+                <p className="font-normal font-Avenir text-sm text-white">
                   orlo123@gmail.com
                 </p>
               </div>
@@ -147,7 +122,7 @@ const Footer = () => {
                   alt="callIcon"
                   className=" w-[18px]  "
                 />
-                <p className="font-normal font-custom-font text-sm text-white w-[164px] ">
+                <p className="font-normal font-Avenir text-sm text-white w-[164px] ">
                   2972 Westheimer Rd. Lekki - Lagos
                 </p>
               </div>
@@ -155,7 +130,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" flex flex-col gap-8 ">
-          <h1 className=" font-custom-font font-bold text-lg text-white">
+          <h1 className=" font-Avenir font-bold text-lg text-white">
             Social media
           </h1>
           <div className=" flex flex-row gap-4 items-center">

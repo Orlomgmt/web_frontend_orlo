@@ -26,7 +26,7 @@ const CustomInput = ({
   };
 
   const inputClasses = `
-    w-full p-2 border rounded-full focus:outline-none border-custom-blue shadow-custom-blue font-custom-font font-medium focus:ring-2 
+    w-full p-2 border rounded-full focus:outline-none border-custom-blue shadow-custom-blue font-Avenir font-medium focus:ring-2 
     ${
       error && isTouched
         ? "border-red-500 focus:ring-red-500"

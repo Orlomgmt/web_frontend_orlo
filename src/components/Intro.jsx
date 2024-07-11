@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className=" lg:w-[80%] flex flex-col justify-center items-center gap-4 mx-auto text-center mt-6 mb-6">
-      <h1 className="  font-custom-font font-black text-4xl text-[#000]">
+      <h1 className="  font-Avenir font-black text-4xl text-[#000]">
         Introduction
       </h1>
       <p className=" font-normal text-xl text-[#000]">

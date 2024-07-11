@@ -32,8 +32,8 @@ const KeyFeatures = () => {
     <div className="flex flex-row mx-auto w-[80%] justify-center items-center -mt-20">
       <div className="lg:w-[1171px] justify-center items-center flex flex-col mx-auto z-100">
         {/* Your header div */}
-        <div className="w-[283px] px-4 py-3 bg-white shadow-custom-shadow font-custom-font border-black-10 border-solid border-[5px] rounded-full flex flex-row justify-center items-center">
-          <p className="font-black text-sm text-[#000] font-custom-font">
+        <div className="w-[283px] px-4 py-3 bg-white shadow-custom-shadow font-Avenir border-black-10 border-solid border-[5px] rounded-full flex flex-row justify-center items-center">
+          <p className="font-black text-sm text-[#000] font-Avenir">
             {" "}
             KEY FEATURES
           </p>
@@ -44,11 +44,11 @@ const KeyFeatures = () => {
           {keyData.map((item, index) => (
             <div
               key={index}
-              className="w-[446px] gap-6 px-4 py-3 bg-white shadow-custom-shadow font-custom-font border-black-10 border-solid border-[5px] rounded-full flex flex-row justify-center items-center"
+              className="w-[446px] gap-6 px-4 py-3 bg-white shadow-custom-shadow font-Avenir border-black-10 border-solid border-[5px] rounded-full flex flex-row justify-center items-center"
             >
               <img src={item.icon} alt="" />
               <div className="w-[250px] flex flex-col gap-1">
-                <h1 className="font-custom-font text-sm font-black text-[#000]">
+                <h1 className="font-Avenir text-sm font-black text-[#000]">
                   {item.title}
                 </h1>
                 <p className="text-sm font-normal">{item.content}</p>

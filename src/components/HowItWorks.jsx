@@ -67,7 +67,7 @@ const howData = [
 const HowItWorks = () => {
   return (
     <div className="w-[100%] bg-primary justify-center items-center mx-auto flex flex-col gap-6 py-9 my-8">
-      <h1 className="font-custom-font font-black text-4xl text-[#fff]">
+      <h1 className="font-Avenir font-black text-4xl text-[#fff]">
         How it Works
       </h1>
       <div className="w-[85%] grid lg:grid-cols-6 gap-10 place-items-center">

@@ -15,7 +15,7 @@ const Onboarding = () => {
     <div className="w-full flex select-none">
       <div className="w-[95%] mx-auto flex relative items-center my-auto flex-row h-[1000px] justify-between">
         <div className=" w-[676px] h-[960px]  flex flex-col pt-32 items-center rounded-2xl gap-5 bg-custom-gradient ">
-          <h1 className=" text-white text-[32px] font-[350px] leading-0 font-custom-font">
+          <h1 className=" text-white text-[32px] font-[350px] leading-0 font-Avenir">
             Welcome to
           </h1>
           <img src={orloLOgo} alt="orloLOgo" />

@@ -23,8 +23,7 @@ const CustomButton = ({
 
   const sizes = {
     small: "px-[20px] py-[8px] w-[175px] text-sm",
-    medium:
-      "px-[20px] py-[10px] w-[357px] h-[48px] text-[16px] font-custom-font",
+    medium: "px-[20px] py-[10px] w-[357px] h-[48px] text-[16px] font-Avenir",
     large: "px-8 py-4 text-lg",
 
     // Add more sizes as needed

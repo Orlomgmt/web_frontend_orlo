@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        "custom-font": ["Avenir", "sans-serif"],
+        Avenir: ["Avenir", "sans-serif"],
       },
       backgroundImage: {
         "custom-gradient":

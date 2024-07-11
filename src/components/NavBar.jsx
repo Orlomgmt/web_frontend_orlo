@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className="w-[90%] flex justify-between items-center flex-row mx-auto h-20">
       <img src={OrloLogo} alt="OrloLogo" />
       <div className=" flex flex-row justify-center items-center gap-16">
-        <div className=" flex flex-row justify-center items-center gap-10 text-BlueGray800 font-custom-font">
+        <div className=" flex flex-row justify-center items-center gap-10 text-BlueGray800 font-Avenir">
           <a href="">ABOUT US</a>
           <a href="">SERVICES</a>
           <a href="">APP</a>
@@ -16,10 +16,10 @@ const NavBar = () => {
           <a href="">BLOG</a>
         </div>
         <div className=" flex flex-row gap-6 items-center">
-          <button className=" font-light font-custom-font text-BlueGray800">
+          <button className=" font-light font-Avenir text-BlueGray800">
             <IoSearchSharp size={24} />
           </button>
-          <button className=" font-custom-font text-BlueGray800">
+          <button className=" font-Avenir text-BlueGray800">
             <IoMenu size={24} />
           </button>
         </div>

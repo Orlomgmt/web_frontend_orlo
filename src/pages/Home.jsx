@@ -10,7 +10,7 @@ import DownloadAppSection from "../components/DownloadAppSection";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className=" overflow-x-hidden">
       <HomeHeroSection />
       <Intro />
       <HowItWorks />

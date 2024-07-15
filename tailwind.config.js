@@ -61,6 +61,9 @@ module.exports = {
         "black-10": "rgba(0, 0, 0, 0.10)",
         "white-10": "rgba(255, 255, 255, 0.40)",
       },
+      backgroundPosition: {
+        "center-left": "400",
+      },
     },
   },
   plugins: [],

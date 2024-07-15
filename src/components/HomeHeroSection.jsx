@@ -57,33 +57,32 @@ const HomeHeroSection = () => {
     setIsFading(true);
     setTimeout(() => {
       setIsFading(false);
-    }, 1000); // Synchronize with fade duration
+    }, 1000);
   };
 
   return (
     <>
-      <div className="relative w-full h-[100vh]">
-        <div
-          className="absolute w-full h-full -z-10"
-          style={{
-            backgroundImage: `url(${images[currentImageIndex]})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        ></div>
+      <div
+        className=" w-full xl:h-[100vh]  h-[450px] lg:h-[500px] -z-10 "
+        style={{
+          backgroundImage: `url(${images[currentImageIndex]})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <NavBar />
-        <div className="flex flex-row xl:mt-32 relative z-10">
-          <div className="w-[561px] flex flex-col gap-3 justify-center items-center ml-32 ">
+        <div className="flex flex-row xl:mt-32 max-[1024px]:mt-16  max-[640px]:mt-14 relative z-10">
+          <div className="lg:w-[561px] md:w-[300px] max-[640px]:w-[166px] flex flex-col gap-3 justify-start items-start xl:ml-32 lg:ml-28 md:ml-24 max-[640px]:ml-12 ">
             <h1
-              className={`text-6xl font-extrabold font-Avenir transition-opacity duration-1000 ${
+              className={`xl:text-6xl lg:text-4xl md:text-3xl max-[640px]:text-[20px] sm:w-fit  font-extrabold font-Avenir transition-opacity duration-1000 ${
                 isFading ? "opacity-80" : "opacity-100"
               }`}
             >
               {SlideData[currentSlideIndex].title}
             </h1>
             <p
-              className={`text-2xl font-Avenir transition-opacity duration-1000 ${
+              className={`xl:text-2xl lg:text-2xl md:text-lg max-[640px]:text-[10px] font-AvenirLight transition-opacity duration-1000 ${
                 isFading ? "opacity-60" : "opacity-100"
               }`}
             >
@@ -98,7 +97,7 @@ const HomeHeroSection = () => {
             >
               {SlideData[currentSlideIndex].btnText}
             </CustomButton>
-            <div className="  flex space-x-3">
+            <div className="  flex space-x-3 max-[640px]:ml-8 md:ml-16">
               {SlideData.map((_, index) => (
                 <button
                   key={index}

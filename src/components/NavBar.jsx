@@ -8,8 +8,10 @@ const NavBar = () => {
     <div className="w-[90%] flex justify-between items-center flex-row mx-auto h-20">
       <img src={OrloLogo} alt="OrloLogo" />
       <div className=" flex flex-row justify-center items-center gap-16">
-        <div className=" flex flex-row justify-center items-center gap-10 text-BlueGray800 font-Avenir">
-          <a href="">ABOUT US</a>
+        <div className=" flex xl:flex-row lg:flex-row max-[1024px]:hidden  justify-center items-center gap-10 text-BlueGray800 font-Avenir max-[640px]:hidden ">
+          <a href="" className="">
+            ABOUT US
+          </a>
           <a href="">SERVICES</a>
           <a href="">APP</a>
           <a href="">CONTACT</a>

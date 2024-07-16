@@ -141,11 +141,11 @@ const BlogSection = () => {
         <p className=" font-Avenir xl:text-lg text-base font-normal text-customGray-200 mt-5">
           Our latest updates and blogs about managing your team
         </p>
-        <div className=" w-full grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-x-6 gap-y-8 mt-16">
+        <div className=" w-full place-items-center  grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-x-6 gap-y-8 mt-16">
           {blogData.slice(0, visibleItems).map((item, id) => (
             <div
               kay={id}
-              className=" lg:w-[285px] max-[625px]:w-[130px] gap-5 bg-white overflow-hidden lg:h-[380px] md:h-[340px] flex flex-col rounded-3xl"
+              className=" lg:w-[285px] max-[625px]:w-[285px] gap-5 bg-white overflow-hidden lg:h-[380px] md:h-[340px] flex flex-col rounded-3xl"
             >
               <img src={item.image} alt={item.author} className="w-full flex" />
 

@@ -64,6 +64,9 @@ module.exports = {
       backgroundPosition: {
         "center-left": "400",
       },
+      textShadow: {
+        "custom-shadow": "2px 4px 0 #FFF",
+      },
     },
   },
   plugins: [],

@@ -43,3 +43,7 @@
 .carousel-background {
   animation: fadeIn 5s ease-in-out;
 }
+
+.custom-shadow {
+  text-shadow: 2px 4px 0px #FFF;
+}

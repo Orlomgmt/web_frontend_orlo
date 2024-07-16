@@ -51,7 +51,7 @@ const Testimonials = () => {
         {testimonalData.map((each, index) => (
           <div className="flex flex-col justify-center items-center">
             <img src={each.img} alt={each.img} className=" w-[60px] z-10" />
-            <div className=" -mt-6 flex lg:w-[375px] md:w-[200px] w-[200px] text-center flex-col lg:gap-10 gap-4 py-10 px-7 border z-0 rounded-3xl">
+            <div className=" -mt-6 flex lg:w-[375px] md:w-[250px] w-[200px] text-center flex-col lg:gap-10 gap-4 py-10 px-7 border z-0 rounded-3xl">
               <h1 className=" lg:text-xl md:text-[16px] text-[10px] font-Avenir font-normal">
                 {each.review}
               </h1>

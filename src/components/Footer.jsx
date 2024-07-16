@@ -37,7 +37,7 @@ const Footer = () => {
   return (
     <div className=" w-full flex flex-col justify-center items-center lg:px-10 px-5 py-10 bg-primary mt-2">
       <div className=" flex xl:flex-row lg:flex-row flex-col lg:justify-between gap-8 lg:items-start items-center justify-center xl:w-[90%] w-[95%]">
-        <div className=" flex xl:flex-col lg:flex-col md:flex-row sm:flex-row flex-row gap-3 justify-between lg:w-[40%] md:w-[80%] sm:w-[80%] ">
+        <div className=" flex xl:flex-col lg:flex-col md:flex-row sm:flex-row flex-row gap-3 justify-between items-center lg:w-[40%] md:w-[80%] sm:w-[80%] ">
           <div className=" flex flex-col lg:gap-3 gap-1">
             <img
               src={OrloLogo}
@@ -48,8 +48,8 @@ const Footer = () => {
               Download the app by clicking the link below :
             </p>
           </div>
-          <div className=" flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col gap-5">
-            <button className="flex flex-row gap-1 px-3 py-2 bg-black rounded-lg justify-center items-center">
+          <div className=" flex xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col gap-5">
+            <button className="flex flex-row h-fit gap-1 px-3 py-2 bg-black rounded-lg justify-center items-center">
               <img src={Googleplay} alt="" className="w-[20px]" />
               <div className="flex flex-col justify-start items-start gap-0">
                 <p className="text-[10px] text-white font-light ml-1 -mb-1 leading-none">
@@ -72,8 +72,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" flex xl:flex-row lg:flex-row flex-col lg:justify-between md:flex-row gap-8 lg:items-start items-center justify-center md:w-full sm:w-full lg:w-[70%]">
-          <div className=" flex flex-row justify-between items-start lg:w-[40%] md:w-[21%] sm:w-[70%] w-full px-6">
+        <div className=" flex xl:flex-row lg:flex-row flex-col lg:justify-between md:flex-row gap-8 lg:items-start md:justify-between items-center justify-center md:w-[80%] sm:w-full lg:w-[70%]">
+          <div className=" flex flex-row justify-between items-start lg:w-[40%] md:w-[35%] sm:w-[70%] w-full">
             <div className=" flex flex-col gap-6">
               <h1 className=" font-Avenir font-bold text-lg text-white  ">
                 Pages
@@ -132,7 +132,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" flex flex-row justify-between items-start lg:w-[45%] md:w-full">
+          <div className=" flex flex-row justify-between items-start lg:w-[45%] md:w-[55%]">
             <div className=" flex flex-col gap-6">
               <h1 className=" font-Avenir font-bold text-lg text-white">
                 Contact

@@ -5,6 +5,8 @@ import laundryImg from "../images/laundryImg.jpeg";
 import laundryImg2 from "../images/homebg2.png";
 import laundryImg3 from "../images/homebg3.png";
 import KeyFeatures from "./KeyFeatures";
+import OrloLogo from "../images/orloLogoBlue.svg";
+import OrloLogoWhite from "../images/OrloWhiteLogo.svg";
 
 const images = [laundryImg, laundryImg2, laundryImg3];
 
@@ -71,8 +73,15 @@ const HomeHeroSection = () => {
           backgroundPosition: "center",
         }}
       >
-        <NavBar />
-        <div className="flex flex-row xl:mt-32 max-[1024px]:mt-16  max-[640px]:mt-14 relative z-10">
+        <NavBar
+          color={"white"}
+          bgcolor={"#3778C2"}
+          initialBgcolor={"transparent"}
+          initialColor={"black"}
+          logo={OrloLogo}
+          scrolledLogo={OrloLogoWhite}
+        />
+        <div className="flex flex-row xl:pt-32 max-[1024px]:pt-16  max-[640px]:pt-14 relative z-10">
           <div className="lg:w-[561px] md:w-[300px] max-[640px]:w-[166px] flex flex-col gap-3 justify-start items-start xl:ml-32 lg:ml-28 md:ml-24 max-[640px]:ml-12 ">
             <h1
               className={`xl:text-6xl lg:text-4xl md:text-3xl max-[640px]:text-[20px] sm:w-fit  font-extrabold font-Avenir transition-opacity duration-1000 ${

@@ -7,7 +7,7 @@ module.exports = {
         primary: "#3778C2",
         primary101: "#b5cceb",
         secondary: "#000",
-        accent: "#E1AB20",
+        accent: "#F8A300",
         lghtBlueBg: "#ECF0FF",
         formTextClr: "#26203B",
         BlueGray800: "#28353D",
@@ -66,6 +66,9 @@ module.exports = {
       },
       textShadow: {
         "custom-shadow": "2px 4px 0 #FFF",
+      },
+      gridColumn: {
+        "span-1-1/2": "span 1.5 / span 1.5",
       },
     },
   },

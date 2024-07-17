@@ -8,14 +8,6 @@ import OrloLogoWhite from "../images/OrloWhiteLogo.svg";
 const AboutPage = () => {
   return (
     <div className="">
-      <NavBar
-        color={"white"}
-        bgcolor={"#3778C2"}
-        initialBgcolor={"3778C2"}
-        initialColor={"white"}
-        logo={OrloLogoWhite}
-        scrolledLogo={OrloLogoWhite}
-      />
       <AbooutHeroSection />
       <AboutContentSection />
       <OurTeamSection />

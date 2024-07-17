@@ -4,7 +4,7 @@ import bgImage from "../../images/postive-caring-relationships-teachers 1.png";
 const AbooutHeroSection = () => {
   return (
     <div
-      className=" w-full flex flex-col justify-center items-center mx-auto xl:h-[400px] py-10 "
+      className=" w-full mt-20 flex flex-col justify-center items-center mx-auto xl:h-[400px] py-10 "
       style={{
         backgroundImage: `url('${bgImage}')`,
         backgroundSize: "cover",

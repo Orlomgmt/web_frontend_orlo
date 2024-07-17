@@ -73,15 +73,7 @@ const HomeHeroSection = () => {
           backgroundPosition: "center",
         }}
       >
-        <NavBar
-          color={"white"}
-          bgcolor={"#3778C2"}
-          initialBgcolor={"transparent"}
-          initialColor={"black"}
-          logo={OrloLogo}
-          scrolledLogo={OrloLogoWhite}
-        />
-        <div className="flex flex-row xl:pt-32 max-[1024px]:pt-16  max-[640px]:pt-14 relative z-10">
+        <div className="flex flex-row xl:pt-44 max-[1024px]:pt-24  max-[640px]:pt-32 relative z-10">
           <div className="lg:w-[561px] md:w-[300px] max-[640px]:w-[166px] flex flex-col gap-3 justify-start items-start xl:ml-32 lg:ml-28 md:ml-24 max-[640px]:ml-12 ">
             <h1
               className={`xl:text-6xl lg:text-4xl md:text-3xl max-[640px]:text-[20px] sm:w-fit  font-extrabold font-Avenir transition-opacity duration-1000 ${

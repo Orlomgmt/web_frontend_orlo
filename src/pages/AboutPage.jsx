@@ -11,7 +11,6 @@ const AboutPage = () => {
       <AbooutHeroSection />
       <AboutContentSection />
       <OurTeamSection />
-      <Footer />
     </div>
   );
 };

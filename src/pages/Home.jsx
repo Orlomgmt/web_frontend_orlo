@@ -17,7 +17,6 @@ const Home = () => {
       <DownloadAppSection />
       <Testimonials />
       <BlogSection />
-      <Footer />
     </div>
   );
 };

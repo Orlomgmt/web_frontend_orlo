@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --color-primary: #3778C2;
+  --color-primary-dark: #2c5e9a;
+  /* A darker shade for hover effect */
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 100%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark);
+  border-radius: 100px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) #f1f1f1;
+}
+
+
+
 @font-face {
   font-family: 'Avenir';
   src: url('./fonts/AvenirLTStd-Roman.otf');

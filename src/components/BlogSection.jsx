@@ -114,7 +114,7 @@ const BlogSection = () => {
         // md breakpoint
         setVisibleItems(6);
       } else {
-        setVisibleItems(4);
+        setVisibleItems(2);
       }
     };
 

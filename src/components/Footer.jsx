@@ -1,13 +1,13 @@
 import React from "react";
 import OrloLogo from "../images/OrloWhiteLogo.svg";
 import Googleplay from "../images/icons/4202002_apps_google_googleplay_play_logo_icon.svg";
-import callIcon from "../images/icons/ant-design_phone-filled.svg";
-import mailIcon from "../images/icons/dashicons_email.svg";
 import TweeterIcon from "../images/icons/Twitter logo.svg";
 import InstagramIcon from "../images/icons/instagram logo.svg";
 import LinkedInLOgo from "../images/icons/linkedin logo.svg";
 import facebookIcon from "../images/icons/facebook logo.svg";
 
+import mailIcon from "../images/icons/dashicons_email.svg";
+import callIcon from "../images/icons/ant-design_phone-filled.svg";
 import locationIcon from "../images/icons/fa6-solid_location-dot.svg";
 
 const socialMediaData = [

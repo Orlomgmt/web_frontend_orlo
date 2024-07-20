@@ -62,7 +62,7 @@ const NavBar = () => {
           <div className="flex xl:flex-row lg:flex-row max-[1024px]:hidden justify-center items-center gap-10 font-Avenir max-[640px]:hidden">
             <a href="/about">ABOUT US</a>
             <a href="/services">SERVICES</a>
-            <a href="">APP</a>
+            <a href="/app">APP</a>
             <a href="/contact">CONTACT</a>
             <a href="/blogs">BLOG</a>
           </div>

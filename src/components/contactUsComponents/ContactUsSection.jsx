@@ -41,20 +41,22 @@ const ContactUsSection = () => {
         Got question or remarks? Leave us a message!
       </p>
       <div className="w-[90%] sm:w-[80%] bg-white flex flex-col lg:flex-row justify-between items-start lg:items-center p-4 sm:p-5 rounded-2xl my-3 shadow-lg">
-        <div className="w-full lg:w-[45%] bg-primary h-auto lg:h-[667px] rounded-2xl relative flex flex-col py-7 px-6 mb-8 lg:mb-0">
-          <h2 className="font-Avenir font-black text-2xl sm:text-3xl text-white mb-2">
-            Contact Information
-          </h2>
-          <p className="text-[#C9C9C9] font-Avenir font-normal mb-8">
-            Say something to start a live chat!
-          </p>
-          <div className="flex flex-col gap-8 sm:gap-12 mt-8 sm:mt-24">
-            <ContactInfo icon={callIcon} text="(406) 555-0120" />
-            <ContactInfo icon={mailIcon} text="orlo123@gmail.com" />
-            <ContactInfo
-              icon={locationIcon}
-              text="132 Dartmouth Street, Lekki Phase 1"
-            />
+        <div className="w-full lg:w-[45%] bg-primary h-auto lg:h-[667px] rounded-2xl relative flex flex-col justify-between py-7 px-6 mb-8 lg:mb-0">
+          <div>
+            <h2 className="font-Avenir font-black text-2xl sm:text-3xl text-white mb-2">
+              Contact Information
+            </h2>
+            <p className="text-[#C9C9C9] font-Avenir font-normal mb-8">
+              Say something to start a live chat!
+            </p>
+            <div className="flex flex-col gap-8 sm:gap-12 mt-8 sm:mt-24">
+              <ContactInfo icon={callIcon} text="(406) 555-0120" />
+              <ContactInfo icon={mailIcon} text="orlo123@gmail.com" />
+              <ContactInfo
+                icon={locationIcon}
+                text="132 Dartmouth Street, Lekki Phase 1"
+              />
+            </div>
           </div>
           <SocialIcons />
           <BackgroundImages />

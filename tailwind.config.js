@@ -22,6 +22,7 @@ module.exports = {
           // 800: "#2d3748",
           // 900: "#1a202c",
         },
+        lightBg: "#FBFBFB",
       },
       fontFamily: {
         Avenir: ["Avenir", "sans-serif"],

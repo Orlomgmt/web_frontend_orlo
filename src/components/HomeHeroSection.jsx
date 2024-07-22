@@ -39,7 +39,7 @@ const HomeHeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); // Change image every 10 seconds
+    }, 10000);
     return () => clearInterval(interval);
   }, []);
 
@@ -49,8 +49,8 @@ const HomeHeroSection = () => {
       setTimeout(() => {
         setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % SlideData.length);
         setIsFading(false);
-      }, 1000); // Fade out duration
-    }, 10000); // Change slide every 10 seconds
+      }, 1000);
+    }, 10000);
     return () => clearInterval(interval);
   }, []);
 
@@ -65,7 +65,7 @@ const HomeHeroSection = () => {
   return (
     <>
       <div
-        className=" w-full xl:h-[100vh]  h-[450px] lg:h-[500px] -z-10 "
+        className="w-full h-[450px] lg:h-[500px] xl:h-[100vh] -z-10"
         style={{
           backgroundImage: `url(${images[currentImageIndex]})`,
           backgroundRepeat: "no-repeat",
@@ -73,17 +73,17 @@ const HomeHeroSection = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="flex flex-row xl:pt-44 max-[1024px]:pt-24  max-[640px]:pt-32 relative z-10">
-          <div className="lg:w-[561px] md:w-[300px] max-[640px]:w-[166px] flex flex-col gap-3 justify-start items-start xl:ml-32 lg:ml-28 md:ml-24 max-[640px]:ml-12 ">
+        <div className="flex flex-row pt-32 lg:pt-24 xl:pt-44 relative z-10">
+          <div className="flex flex-col gap-3 justify-start items-start ml-12 md:ml-24 lg:ml-28 xl:ml-32 w-[166px] md:w-[300px] lg:w-[561px]">
             <h1
-              className={`xl:text-6xl lg:text-4xl md:text-3xl max-[640px]:text-[20px] sm:w-fit  font-extrabold font-Avenir transition-opacity duration-1000 ${
+              className={`text-[20px] md:text-3xl lg:text-4xl xl:text-6xl font-extrabold font-Avenir transition-opacity duration-1000 ${
                 isFading ? "opacity-80" : "opacity-100"
               }`}
             >
               {SlideData[currentSlideIndex].title}
             </h1>
             <p
-              className={`xl:text-2xl lg:text-2xl md:text-lg max-[640px]:text-[10px] font-AvenirLight transition-opacity duration-1000 ${
+              className={`text-[10px] md:text-lg lg:text-2xl xl:text-2xl font-AvenirLight transition-opacity duration-1000 ${
                 isFading ? "opacity-60" : "opacity-100"
               }`}
             >
@@ -98,7 +98,7 @@ const HomeHeroSection = () => {
             >
               {SlideData[currentSlideIndex].btnText}
             </CustomButton>
-            <div className="  flex space-x-3 max-[640px]:ml-8 md:ml-16">
+            <div className="flex space-x-3 ml-8 md:ml-16">
               {SlideData.map((_, index) => (
                 <button
                   key={index}

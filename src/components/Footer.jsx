@@ -60,13 +60,15 @@ const Footer = () => {
                 </h1>
               </div>
             </button>
-            <button className="flex flex-row h-fit gap-1 px-3 py-2 bg-black rounded-lg justify-center items-center">
+            <button className="flex flex-row h-fit gap-1  px-3 py-2 bg-black rounded-lg justify-center items-center">
               <img src={Googleplay} alt="" className="w-[20px]" />
               <div className="flex flex-col justify-start items-start gap-0">
                 <p className="text-[10px] text-white font-light ml-1 -mb-1 leading-none">
-                  Download on the
+                  Download on
                 </p>
-                <h1 className="text-lg text-white font-Avenir">App Store</h1>
+                <h1 className="text-lg text-white flex-nowrap text-nowrap font-Avenir">
+                  App Store
+                </h1>
               </div>
             </button>
           </div>

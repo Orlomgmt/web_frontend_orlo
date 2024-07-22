@@ -34,8 +34,8 @@ const BlogsSection = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center w-full mx-auto bg-[#FBFBFB] mt-16 md:mt-[82px] pt-8 md:pt-16">
-      <div className="flex flex-col justify-center items-center w-[90%] md:w-[85%] max-w-7xl">
+    <div className="flex flex-col justify-center items-center w-full mx-auto bg-lightBg mt-16 md:mt-[82px] pt-8 md:pt-16">
+      <div className="flex flex-col justify-center items-center w-[90%] gap-8  max-w-7xl">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-4 w-full mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-[48px] text-black font-AvenirBlack font-bold mb-4 md:mb-0">
             Blogs
@@ -78,11 +78,11 @@ const BlogsSection = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col justify-center items-center gap-8 md:gap-11 py-8 md:py-20">
+        <div className="w-full flex flex-col justify-center items-center gap-8 md:gap-11  ">
           {BlogData.map((item, id) => (
             <div
               key={id}
-              className="flex flex-col md:flex-row w-full bg-white rounded-2xl border-[#E2E2E2] border-[1px] overflow-hidden"
+              className="flex flex-col md:flex-row w-full bg-white rounded-2xl border-[#E2E2E2] shadow-lg border-[1px] overflow-hidden"
             >
               <div className="flex flex-col w-full md:w-[50%] justify-center items-start p-6 md:p-8 lg:p-10 gap-4 md:gap-5">
                 <h2 className="font-Avenir font-extrabold text-[#2D3748] text-2xl md:text-3xl lg:text-[40.896px] leading-tight">

@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg {
+    background-image: radial-gradient(150.06% 141.42% at 100% 100%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    width: 100%;
+    height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Avenir';
+    src: url('./fonts/AvenirLTStd-Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('./fonts/AvenirLTStd-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLight';
+    src: url('./fonts/AvenirLTStd-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('./fonts/AvenirLTStd-Light.otf');
+    font-weight: normal;
+    font-style: normal;
 }

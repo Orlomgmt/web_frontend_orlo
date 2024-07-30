@@ -11,7 +11,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-full h-screen relative bg-gradient-to-tl select-none from-slate-50 to-blue-200 overflow-x-hidden mx-auto flex flex-col px-4 sm:px-28 md:justify-start md:items-start">
+    <div className="w-full h-screen relative bg-gradient-to-tl select-none from-slate-50 to-blue-200 overflow-hidden mx-auto flex flex-col px-4 sm:px-28 md:justify-start md:items-start">
       <div className="w-full py-5 sm:py-10 flex justify-center md:justify-start md:absolute md:top-0 md:left-28 z-50 ">
         <img
           src="/orloLogo.svg"

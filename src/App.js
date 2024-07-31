@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import BlogsPage from "./pages/BlogsPage";
 import Footer from "./components/Footer";
 import NotFoundPage from "./pages/NotFoundPage";
+import BlogDetailsById from "./components/BlogPageComponents/BlogDetailsById";
 // import { useNavigate } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<ContactUsPage />} />
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/onboarding" element={<Onboarding />} />
+        <Route path="/blogs/:id" element={<BlogDetailsById />} />
         <Route path="/*" element={<NotFoundPage />} />
       </Routes>
       <Footer />

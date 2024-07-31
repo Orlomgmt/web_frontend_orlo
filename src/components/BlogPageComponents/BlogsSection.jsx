@@ -96,9 +96,12 @@ const BlogsSection = () => {
                   <p className="text-[#718096] text-base md:text-lg lg:text-[19.085px] font-normal mb-2 sm:mb-0">
                     {item.date}
                   </p>
-                  <button className="text-primary text-base md:text-lg lg:text-[19.085px] font-bold">
+                  <a
+                    href="/blogs/212"
+                    className="text-primary text-base md:text-lg lg:text-[19.085px] font-bold"
+                  >
                     Read more
-                  </button>
+                  </a>
                 </div>
               </div>
               <div className="w-full md:w-[50%] h-48 md:h-auto">

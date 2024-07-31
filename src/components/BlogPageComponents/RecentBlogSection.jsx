@@ -188,9 +188,9 @@ const RecentBlogSection = () => {
           {currentPosts.map((item, id) => (
             <div
               key={id}
-              className="flex-col flex gap-4 col-span-1 shadow-md h-[365.35px] w-full max-w-xs bg-white rounded-sm overflow-hidden"
+              className="flex-col flex gap-4 col-span-1 shadow-md h-[400px] w-full max-w-xs bg-white rounded-sm overflow-hidden"
             >
-              <img src={item.image} alt="blogImg" className="w-full h-[50%]" />
+              <img src={item.image} alt="blogImg" className="w-full h-[45%]" />
               <div className="flex flex-col justify-center items-start px-4">
                 <h1 className="text-[#2D3748] text-[20px] font-AvenirBlack font-bold">
                   {item.title}
